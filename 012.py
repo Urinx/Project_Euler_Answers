@@ -81,7 +81,7 @@ def anwser2():
 # ==========================
 
 def factor_numbers(num):
-    n=2
+    n=1
     for x in xrange(2,int(math.sqrt(num))):
         if num%x==0:
             n+=1
