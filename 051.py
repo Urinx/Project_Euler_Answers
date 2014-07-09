@@ -40,7 +40,7 @@ def prime_number(i,d):
 
 primes=[]
 
-def anwser():
+def answer():
     for p in gen_primes():
         if p>56003:
             for d in set(['0','1','2']) & set(str(p)):
@@ -51,7 +51,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 121313
 # run time= 0.790215015411

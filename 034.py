@@ -12,7 +12,7 @@ Note: as 1! = 1 and 2! = 2 are not sums they are not included.
 """
 import math
 
-def anwser():
+def answer():
 	m=0
 	for i in xrange(10,2540160):
 		if i==sum([math.factorial(int(j)) for j in list(str(i))]): m+=i
@@ -20,7 +20,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 40730
 # run time= 14.8498859406

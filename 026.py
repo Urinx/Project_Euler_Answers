@@ -39,7 +39,7 @@ def bar(m,n):
 		if i in a: return len(a)-a.index(i)
 		a.append(i)
 
-def anwser():
+def answer():
     m=d=0
     for n in xrange(2,1000):
     	t=bar(1,n)
@@ -48,7 +48,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 983
 # run time= 0.610565900803

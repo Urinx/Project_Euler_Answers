@@ -35,7 +35,7 @@ def Fibonacci():
 		a.append(sum(a))
 		yield a.pop(0)
 
-def anwser():
+def answer():
 	a=0
 	for i in Fibonacci():
 		a+=1
@@ -45,7 +45,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 4782
 # run time= 0.0710821151733

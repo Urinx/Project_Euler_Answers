@@ -29,7 +29,7 @@ def gen_d(dm):
 			dn.append(int(str(i)+j))
 	return dn
 
-def anwser():
+def answer():
 	d2=gen_d(range(1,10))
 	d3=gen_d(d2)
 	d4=gen_d(d3)
@@ -62,7 +62,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # the correct answer is 45228
 # but i dont know where my code is go wrong

@@ -22,7 +22,7 @@ U 2.58 V 1.09 W 1.59 X 0.21 Y 1.58 Z 0.08
 def most(arr):
 	return max(map(lambda x:(arr.count(x),x),arr))[1]
 
-def anwser():
+def answer():
 	f=open('cipher1.txt','r')
 	ciphers=f.read().replace('\n','').split(',')
 	a=[ciphers[i] for i in xrange(len(ciphers)) if i%3==0]
@@ -37,7 +37,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 107359
 # run time= 0.0108640193939

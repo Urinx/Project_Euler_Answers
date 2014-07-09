@@ -26,7 +26,7 @@ five hundred divisors?
 
 '''
 
-def anwser1():
+def answer1():
     m,a=50005000,10001
     while True:
         m+=a
@@ -67,7 +67,7 @@ def get_prime_factors(num):
             factors.append((p,a))
     return factors
 
-def anwser2():
+def answer2():
     m,a=1,2
     while True:
         m+=a
@@ -87,7 +87,7 @@ def factor_numbers(num):
             n+=1
     return n*2
 
-def anwser3():
+def answer3():
     m,a=0,1
     while True:
         m+=a
@@ -99,9 +99,9 @@ def anwser3():
 
 import time
 tStart=time.time()
-# anwser1() is very very slow..idk..
-# anwser2() is memory out and too slow..why??
-anwser3()
+# answer1() is very very slow..idk..
+# answer2() is memory out and too slow..why??
+answer3()
 print 'run time=',time.time()-tStart
 # 76576500
 # run time= 4.45298600197

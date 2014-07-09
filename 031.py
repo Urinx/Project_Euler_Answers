@@ -15,7 +15,7 @@ How many different ways can £2 be made using any number of coins?
 
 """
 
-def anwser():
+def answer():
 	s=7
 	for a in xrange(0,2):
 		for b in xrange(0,4):
@@ -29,7 +29,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 73682
 # run time= 1.96884202957

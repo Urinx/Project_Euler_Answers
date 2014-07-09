@@ -18,7 +18,7 @@ b=[2-9]
 a<b
 '''
 
-def anwser():
+def answer():
 	denominator=numerator=1
 	for b in xrange(2,10):
 		for a in xrange(1,b):
@@ -32,7 +32,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 100
 # run time= 0.0003981590271

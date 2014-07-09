@@ -113,11 +113,11 @@ a='''\
 53503534226472524250874054075591789781264330331690\
 '''
 
-def anwser():
+def answer():
     print str(sum([int(i) for i in a.split('\n')]))[:10]
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 5537376230

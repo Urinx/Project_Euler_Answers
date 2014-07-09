@@ -40,14 +40,14 @@ def is_arithmetic_sequence(arr):
 	if len(set(map(lambda x,y:x-y,arr[1:],arr[:-1])))==1: return True
 	return False
 
-def anwser():
+def answer():
 	for i in xrange(1001,3338):
 		if is_prime(i) and is_prime(i+3330) and is_prime(i+6660) and set(str(i))==set(str(i+3330))==set(str(i+6660)):
 			print i,i+3330,i+6660
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 1487 4817 8147
 # 2969 6299 9629

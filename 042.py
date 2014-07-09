@@ -12,7 +12,7 @@ Using words.txt (right click and 'Save Link/Target As...'), a 16K text file cont
 
 """
 
-def anwser():
+def answer():
 	triangle_nums=[n*(n+1)/2 for n in range(20)]
 
 	f=open('words.txt')
@@ -27,7 +27,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 162
 # run time= 0.0042610168457

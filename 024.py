@@ -19,7 +19,7 @@ What is the millionth lexicographic permutation of the digits 0,
 
 """
 
-def anwser():
+def answer():
 	# 9!=362880    ==>  2xxxx xxxxx
 	# 8!=40320     ==>  27xxx xxxxx
     a=range(10)
@@ -42,7 +42,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 2783915460
 # run time= 8.51154327393e-05

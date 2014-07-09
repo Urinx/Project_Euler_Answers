@@ -31,7 +31,7 @@ a=8
 
 '''
 
-def anwser():
+def answer():
 	def palindrome_check(p):
 		p=str(p)
 		if p==p[::-1]:
@@ -50,6 +50,6 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 #906609

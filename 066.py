@@ -65,7 +65,7 @@ def sqrt_Continued_Fractions(num):
         r.append([p,q,a])
     return [[i[2] for i in r],k]
 
-def wrong_anwser():
+def wrong_answer():
     x=[3,2,9,5,8]
     m=[5,9]
     for d in xrange(8,1001):
@@ -79,7 +79,7 @@ def wrong_anwser():
         x.append(s)
     print m
 #===========================
-def anwser():
+def answer():
     def gao(n):  
         m = int(math.sqrt(n))  
         if m * m == n:  
@@ -118,7 +118,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 661
 # run time= 0.0125041007996

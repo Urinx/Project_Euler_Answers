@@ -32,7 +32,7 @@ def is_leap_yeay(year):
 		return True
 	return False
 
-def anwser():
+def answer():
 	total,sundays=365-31,0
 	for y in xrange(1901,2001):
 		if is_leap_yeay(y):
@@ -47,7 +47,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 171
 # run time= 0.000494003295898

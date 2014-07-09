@@ -27,7 +27,7 @@ def primes_lessthan_max(max):
     prime.pop()
     return prime
 
-def anwser():
+def answer():
 	primes=primes_lessthan_max(20)
 	n=[]
 	for p in primes:
@@ -46,6 +46,6 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 #232792560

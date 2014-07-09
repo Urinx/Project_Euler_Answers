@@ -35,7 +35,7 @@ def prime_factor_numbers(num):
         if num%p==0: n+=1
     return n
 
-def anwser():
+def answer():
     i=210
     a=[]
     while 1:
@@ -53,7 +53,7 @@ primes=[]
 for p in gen_primes():
     if p>10000: break
     primes.append(p)
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 134043
 # run time= 23.6665558815

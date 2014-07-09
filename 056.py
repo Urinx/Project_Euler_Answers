@@ -11,7 +11,7 @@ Considering natural numbers of the form, ab, where a, b < 100, what is the maxim
 """
 import itertools
 
-def anwser():
+def answer():
     m=0
     for i in itertools.permutations(range(1,100),2):
     	t=reduce(lambda x,y:x+int(y),list(str(i[0]**i[1])),0)
@@ -20,7 +20,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 972
 # run time= 0.551580905914

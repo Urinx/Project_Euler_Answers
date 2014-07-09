@@ -26,7 +26,7 @@ c=m^2+n^2
 
 '''
 
-def anwser():
+def answer():
 	for m in xrange(30,10,-1):
 		for n in xrange(m-1,0,-1):
 			a=m**2-n**2
@@ -38,7 +38,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 #375 200 425
 #31875000

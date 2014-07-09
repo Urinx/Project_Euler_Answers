@@ -12,7 +12,7 @@ four million, find the sum of the even-valued terms.
 
 """
 
-def anwser_1():
+def answer_1():
     fibo=[1,2]
     while fibo[-1]<4000000:
         fibo.append(fibo[-1]+fibo[-2])
@@ -23,6 +23,6 @@ def anwser_1():
     else:
         print sum([i for i in fibo if i%2==0])
 
-anwser_1()
+answer_1()
 
 # Anwser:4613732

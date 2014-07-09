@@ -30,12 +30,12 @@ def path2(x,y):
     return p[x,y]
     
 
-def anwser():
+def answer():
     print path2(20,20)
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # path2
 # 137846528820

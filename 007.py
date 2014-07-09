@@ -25,12 +25,12 @@ def primes_until_n(n):
         m+=2
     return prime
 
-def anwser():
+def answer():
 	primes=primes_until_n(10001)
 	print primes
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 #104743

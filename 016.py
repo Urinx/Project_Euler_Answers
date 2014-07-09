@@ -10,11 +10,11 @@ What is the sum of the digits of the number 2^1000?
 
 """
 
-def anwser():
+def answer():
     print sum([int(i) for i in list(str(2**1000))])
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 1366

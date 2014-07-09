@@ -24,7 +24,7 @@ def divisors_sum(num):
 			divisors.append(i)
 	return sum(divisors)
 
-def anwser():
+def answer():
     amicable_num=[]
     for i in xrange(4,10000):
     	m=divisors_sum(i)
@@ -38,7 +38,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 48942
 # run time= 3.24885010719

@@ -11,7 +11,7 @@ Find the sum of all numbers, less than one million, which are palindromic in bas
 
 """
 
-def anwser():
+def answer():
 	s=0
 	for i in xrange(1,1000000,2):
 		if str(i)==str(i)[::-1]:
@@ -21,7 +21,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 55
 # run time= 1.498057127

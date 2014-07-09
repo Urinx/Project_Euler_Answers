@@ -38,7 +38,7 @@ def find_num(j,d):
             break
     return j
 
-def anwser():
+def answer():
     j=346
     d=8
     while j:
@@ -48,7 +48,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 127035954683
 # run time= 0.173566102982

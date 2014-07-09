@@ -28,7 +28,7 @@ def is_hexagonal(num):
 def t(n):
 	return n*(n+1)/2
 
-def anwser():
+def answer():
 	n=285
 	while 1:
 		n+=1
@@ -39,7 +39,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 1533776805
 # run time= 0.10137295723

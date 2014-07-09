@@ -38,7 +38,7 @@ def is_prime(num):
         if num%p==0: return False
     return True
 
-def anwser():
+def answer():
     m=[0,0]
     for i in xrange(0,29):
         for j in xrange(len(primes)-680,i,-1):
@@ -50,7 +50,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # [997651, 543]
 # run time= 0.111933946609

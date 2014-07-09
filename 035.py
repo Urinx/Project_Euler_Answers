@@ -39,7 +39,7 @@ def c_p(ps):
 		if a: b.append(s)
 	return b
 
-def anwser():
+def answer():
 	primes3=[]
 	primes4=[]
 	primes5=[]
@@ -66,7 +66,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 55
 # run time= 1.498057127

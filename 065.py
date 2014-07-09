@@ -26,7 +26,7 @@ def anti_Continued_Fractions(arr):
     if len(arr)==1: return [arr[0],1]
     return i_add_f(arr[0],anti_Continued_Fractions(arr[1:])[::-1])
 
-def anwser():
+def answer():
     e=[2]
     for i in xrange(33):
         e.extend([1,2*(i+1),1])
@@ -34,7 +34,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 272
 # run time= 0.000308990478516

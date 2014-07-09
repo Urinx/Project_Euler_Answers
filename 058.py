@@ -25,7 +25,7 @@ def is_prime(num):
 		if num%i==0: return False
 	return True
 
-def anwser():
+def answer():
 	n,p=7,8.
 	while 1:
 		n+=2
@@ -37,7 +37,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 26241
 # run time= 3.47689294815

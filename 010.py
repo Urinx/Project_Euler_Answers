@@ -28,7 +28,7 @@ def gen_primes():
             del D[q]
         q += 1
 
-def anwser1():
+def answer1():
     result=0
     primes=gen_primes()
     for p in primes:
@@ -53,13 +53,13 @@ def primes_lessthan_max(max):
     prime.pop()
     return prime
 
-def anwser2():
+def answer2():
     primes=primes_lessthan_max(2000000)
     print sum(primes)
 
 import time
 tStart=time.time()
-anwser1()
+answer1()
 print 'run time=',time.time()-tStart
 # Answer 1
 # 142913828922

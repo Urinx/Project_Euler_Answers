@@ -17,11 +17,11 @@ first one hundred natural numbers and the square of the sum.
 
 '''
 
-def anwser():
+def answer():
 	print (101*50)**2-sum(map(lambda x:x**2,xrange(0,101)))
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 #25164150

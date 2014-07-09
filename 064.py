@@ -43,7 +43,7 @@ def sqrt_Continued_Fractions(num):
         r.append([p,q,a])
     return [[i[2] for i in r],k]
 
-def anwser():
+def answer():
 	a=0
 	b=set(range(2,10000)) ^ set([i**2 for i in xrange(2,100)])
 	for N in b:
@@ -52,7 +52,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 1322
 # run time= 0.478819131851

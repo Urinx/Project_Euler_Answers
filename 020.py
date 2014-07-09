@@ -14,12 +14,12 @@ Find the sum of the digits in the number 100!
 """
 import math
 
-def anwser():
+def answer():
     print sum([int(i) for i in list(str(math.factorial(100)))])
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 648
 # run time= 0.000275135040283

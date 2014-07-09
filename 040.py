@@ -22,7 +22,7 @@ d1 × d10 × d100 × d1000 × d10000 × d100000 × d1000000
 6 900000
 '''
 
-def anwser():
+def answer():
 	s=''
 	a=b=1
 	for i in xrange(0,185186):
@@ -34,7 +34,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 210
 # run time= 0.0683369636536

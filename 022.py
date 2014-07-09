@@ -19,7 +19,7 @@ What is the total of all the name scores in the file?
 
 """
 
-def anwser():
+def answer():
     total=0
     f=open('names.txt')
     names=f.read().replace('"','').split(',')
@@ -31,7 +31,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 871198282
 # run time= 0.0195789337158

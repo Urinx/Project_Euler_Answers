@@ -18,7 +18,7 @@ def is_1_t0_9(s):
 	if '0' not in list(s) and len(set(s))==9 and len(s)==9: return True
 	return False
 
-def anwser():
+def answer():
 	m=918273645
 	for i in xrange(9000,9999):
 		s=str(i)+str(i*2)
@@ -29,7 +29,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 932718654
 # run time= 0.00355195999146

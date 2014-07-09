@@ -99,7 +99,7 @@ def compare(card1,card2):
     if card1['rank']==card2['rank'] and S.index(card1['card'])>S.index(card2['card']): return True
     return False
 
-def anwser():
+def answer():
     with open('poker.txt','r') as f:
         poker=f.read().split('\n')
         poker.pop()
@@ -111,7 +111,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 376
 # run time= 0.0720129013062

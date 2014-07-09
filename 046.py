@@ -33,7 +33,7 @@ def gen_primes():
             del D[q]
         q += 1
 
-def anwser():
+def answer():
 	primes=[]
 	b=[2*i*i for i in xrange(1,100)]
 	for p in gen_primes():
@@ -55,7 +55,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 5777
 # run time= 0.27857208252

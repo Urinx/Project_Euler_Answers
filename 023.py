@@ -50,7 +50,7 @@ def abundant_numbers(limit):
 			abd_num.append(i)
 	return abd_num
 
-def anwser():
+def answer():
 	two_abd=range(24)
 	abd=abundant_numbers(28123/2)
 	for i in xrange(25,28124):
@@ -77,7 +77,7 @@ def PE023(limit=28123):
 
 import time
 tStart=time.time()
-#anwser()
+#answer()
 print PE023()
 print 'run time=',time.time()-tStart
 # 4179871

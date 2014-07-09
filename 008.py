@@ -32,7 +32,7 @@ in the 1000-digit number.
 '''
 import re
 
-def anwser():
+def answer():
     m=0
     digits='''\
 73167176531330624919225119674426574742355349194934\
@@ -66,6 +66,6 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 #40824

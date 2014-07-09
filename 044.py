@@ -29,7 +29,7 @@ def p(n):
 	return n*(3*n-1)/2
 
 # TLE
-def anwser():
+def answer():
 	i=2
 	while 1:
 		a,n=p(i),i+1
@@ -44,7 +44,7 @@ def anwser():
 		i+=1
 
 # TLE
-def anwser2():
+def answer2():
 	i=1
 	while 1:
 		a,n=p(i),i+1
@@ -58,7 +58,7 @@ def anwser2():
 			n+=1
 		i+=1
 
-def anwser3():
+def answer3():
 	pentagonals=set(p(n) for n in range(1,3000))
 	c=itertools.combinations(pentagonals,2)
 	for i in c:
@@ -68,7 +68,7 @@ def anwser3():
 
 import time
 tStart=time.time()
-anwser3()
+answer3()
 print 'run time=',time.time()-tStart
 # 5482660
 # run time= 0.596796989441

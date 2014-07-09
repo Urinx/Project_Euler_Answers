@@ -45,7 +45,7 @@ def is_prime(num):
 def euler_formula(a,b,n):
 	return n**2+a*n+b
 
-def anwser():
+def answer():
 	m=0
 	for a in xrange(-999,1000):
 		for b in xrange(1,1000):
@@ -65,7 +65,7 @@ for i in gen_primes():
 	if i>1000: break
 	p.append(i)
 
-anwser()
+answer()
 
 print 'run time=',time.time()-tStart
 # -59231

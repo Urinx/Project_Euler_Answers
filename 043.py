@@ -34,7 +34,7 @@ def with_this_property(s):
 		if int(s[i:i+3])%p[i-1]!=0: return False
 	return True
 
-def anwser():
+def answer():
 	m=0
 	a=made_by_nums([str(i) for i in range(10)])
 	while a[-1][0]=='0':
@@ -45,7 +45,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 16695334890
 # run time= 18.5190529823

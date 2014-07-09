@@ -38,7 +38,7 @@ def primes_until_n(n):
         m+=2
     return prime
 
-def anwser_1():
+def answer_1():
     a=600851475143
     factor=[]
 
@@ -62,6 +62,6 @@ def anwser_1():
         factor.append(f)
     print max(factor)
 
-anwser_1()
+answer_1()
 
 # Anwser:6857

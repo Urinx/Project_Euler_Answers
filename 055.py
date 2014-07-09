@@ -28,7 +28,7 @@ def is_palindrome(num):
 	if num==int(str(num)[::-1]): return True
 	return False
 
-def anwser():
+def answer():
 	a=0
 	for i in xrange(1,10000):
 		if is_lychrel(i): a+=1
@@ -36,7 +36,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 249
 # run time= 0.0848970413208

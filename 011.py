@@ -59,7 +59,7 @@ a='''\
 01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48\
 '''
 
-def anwser():
+def answer():
     num=[] #num[20][20]
     for p in a.split('\n'):
         num.append(map(lambda x:int(x),p.split(' ')))
@@ -78,6 +78,6 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 70600674

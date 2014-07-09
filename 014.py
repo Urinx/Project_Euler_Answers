@@ -33,7 +33,7 @@ def collatz(num):
 
 c={1:1,2:2,3:8,4:3,5:6}
 
-def anwser():
+def answer():
 	m,n=0,0
 	for i in xrange(6,1000001):
 		l=collatz(i)
@@ -43,7 +43,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 837799
 # run time= 1.95199012756

@@ -23,7 +23,7 @@ def gen_primes():
             del D[q]
         q+=1
 
-def anwser():
+def answer():
 	p=[]
 	m=0
 	a=11
@@ -51,7 +51,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 748317
 # run time= 28.1839311123

@@ -19,7 +19,7 @@ from math import factorial as f
 def combinator(n,r):
 	return f(n)/(f(r)*f(n-r))
 
-def anwser():
+def answer():
     m=0
     for n in xrange(23,101):
     	i=0
@@ -32,7 +32,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 4075
 # run time= 0.0573120117188

@@ -10,7 +10,7 @@ Find the smallest positive integer, x, such that 2x, 3x, 4x, 5x, and 6x, contain
 
 """
 
-def anwser():
+def answer():
     i=10000
     while 1:
         x=int('1'+str(i))
@@ -21,7 +21,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 142857
 # run time= 0.132374048233

@@ -27,7 +27,7 @@ Also
 	2^5+5*9^5=295277
 Thus thhe digit is less than or equal to 6.
 '''
-def anwser():
+def answer():
 	a=[]
 	for i in xrange(10,295277):
 		m=sum([int(j)**5 for j in list(str(i))])
@@ -36,7 +36,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 443839
 # run time= 1.42608499527

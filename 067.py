@@ -20,7 +20,7 @@ for i in a.split('\n')[:-1]:
     b.append([int(j) for j in i.split(' ')])
 c=[[i,i] for i in b[-1]]
 
-def anwser():
+def answer():
     for i in xrange(len(b)-2,-1,-1):
         for j in xrange(0,i+1):
             if c[j][-1]<=c[j+1][-1]:
@@ -41,7 +41,7 @@ def draw():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 7273
 # run time= 0.00915908813477

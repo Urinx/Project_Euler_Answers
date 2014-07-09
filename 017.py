@@ -66,7 +66,7 @@ ninety 6
 
 """
 
-def anwser():
+def answer():
     a=[3,4,5,4,4,3,5,5,4,3]
     b=[6,6,8,8,7,7,9,8,8]
     c=[6,6,5,5,5,7,6,6]
@@ -80,6 +80,6 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 21124

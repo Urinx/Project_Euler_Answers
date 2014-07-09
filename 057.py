@@ -22,7 +22,7 @@ def int_add_fraction(i,f):
 def expansion(f):
 	return int_add_fraction(1,int_add_fraction(1,f)[::-1])
 
-def anwser():
+def answer():
     f=[1,1]
     m=0
     for i in xrange(1,1001):
@@ -32,7 +32,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 153
 # run time= 0.0114748477936

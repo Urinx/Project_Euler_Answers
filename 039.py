@@ -19,7 +19,7 @@ a^2+b^2=c^2
 	==> (p^2/2-pa)/(p-a)=b
 '''
 
-def anwser():
+def answer():
 	pm=[0,0]
 	for p in xrange(12,1000):
 		t=0
@@ -33,7 +33,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 849
 # run time= 0.0657351016998

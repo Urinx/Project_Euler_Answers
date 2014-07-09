@@ -8,7 +8,7 @@ The 5-digit number, 16807=75, is also a fifth power. Similarly, the 9-digit numb
 How many n-digit positive integers exist which are also an nth power?
 
 """
-def anwser():
+def answer():
     n_digit=1
     count=0
     while 1:
@@ -21,7 +21,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 49
 # run time= 0.000367879867554

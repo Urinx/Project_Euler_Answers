@@ -24,7 +24,7 @@ Clue:
 The number on the up right conner is n^2 (n=1,3,5....)
 '''
 
-def anwser():
+def answer():
 	m=1
 	for i in xrange(3,1003,2):
 		m+=sum([i**2-(i-1)*j for j in xrange(4)])
@@ -32,7 +32,7 @@ def anwser():
 
 import time
 tStart=time.time()
-anwser()
+answer()
 print 'run time=',time.time()-tStart
 # 669171001
 # run time= 0.00102686882019
