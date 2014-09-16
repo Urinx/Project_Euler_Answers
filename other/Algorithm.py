@@ -429,6 +429,44 @@ def dijkstra(graph,start,end):
     return dist
 
 ##################
+#      Prim      #
+##################
+def prim(G):
+    n=len(G)
+    V=[]
+    V_tmp=[]
+    E=[]
+
+    def updateV_tmp(V):
+        V_tmp=[]
+        for i in V:
+            for j in range(n):
+                if G[i][j]>0 and j not in V and j not in V_tmp:
+                    V_tmp.append(j)
+        return V_tmp
+    
+    def selectV(V,V_tmp):
+        e_min=10e5
+        e_v=(0,0)
+        for v in V_tmp:
+            for u in V:
+                e=G[u][v]
+                if e>0 and e<e_min:
+                    e_min=e
+                    e_v=(u,v)
+        return e_v
+    
+    # init
+    V.append(0)
+    while len(V)<n:
+        V_tmp=updateV_tmp(V)
+        (u,v)=selectV(V,V_tmp)
+        V.append(v)
+        E.append((u,v))
+    
+    return E
+
+##################
 # k-近邻算法(knn) #
 ##################
 from numpy import *
