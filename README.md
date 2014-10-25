@@ -104,6 +104,18 @@ Problem List
 98.Anagramic squares
 99.Largest exponential
 100.Arranged probability
+101.Optimum polynomial
+102.Triangle containment
+103.Special subset sums: optimum
+104.Pandigital Fibonacci ends
+105.Special subset sums: testing
+106.Special subset sums: meta-testing
+107.Minimal network
+108.Diophantine reciprocals I
+109.Darts
+110.Diophantine reciprocals II
+111.Primes with runs
+112.Bouncy numbers
 </pre>
 <hr>
 http://projecteuler.net/
