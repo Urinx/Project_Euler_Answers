@@ -14,24 +14,17 @@ NOTE: This is related to Problem 117.
 
 """
 def F(m,n):
-	ways = [1] * (n+1)
-
+	ways = [1] * m + [0] * (n-m+1)
 	for j in range(m, n+1):
-	    ways[j] = ways[j - 1] + 1
-	    for k in range(m, j):
-	        ways[j] += ways[j - k - 1]
-
-	return ways[n]
+	    ways[j] += ways[j-1] + ways[j - m]
+	return ways[n]-1
 
 def answer():
-	total=0
-	for i in xrange(3,50):
-		total+=F(i,50)
-	print total
+	print F(2,50)+F(3,50)+F(4,50)
 
 import time
 tStart=time.time()
 answer()
 print 'run time=',time.time()-tStart
-# 17420911235
-# run time= 0.00830507278442
+# 20492570929
+# run time= 0.000205993652344
