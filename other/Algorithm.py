@@ -269,6 +269,19 @@ def is_prime(num):
 		if num%i==0: return False
 	return True
 
+def maybe_is_prime(n):
+	# using the Fermat's theorem with probabilistic tests
+	# n best less than 1000
+    if n <= 102:
+        for a in range(2,n):
+            if pow(a,n-1,n)!=1: return False
+        return True
+    else:
+        for i in range(100):
+            a=random.randint(2,n-1)
+            if pow(a,n-1,n)!=1: return False
+        return True
+
 ###############
 #    Sort     #
 ###############
